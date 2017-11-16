@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Koluno_Azul_VB.exe" version="1.0.0.12" publicKeyToken="d8750abd0039eab8" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="large_koluno_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Koluno_Azul_VB" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Koluno_Azul_VB.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Koluno_Azul_VB.exe" size="1854464">
+      <assemblyIdentity name="Koluno_Azul_VB" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>v+l/fDc1ZhPbuRR5SBbYcg+mJb2+OdOUkr/mXp2pKCQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Koluno_Azul_VB.exe.config" size="1483">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WmTC1K0Kvr8gCinstZgfU+PrVPu7cgtUmGWdocRu1Es=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="large_koluno_icon.ico" size="31192">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ta8O8Wzta6tfQGie+TcpfveR3cBXgR52K0IhVLsqJvY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DAVIDSLAPTOP\david" issuerKeyHash="72f29eabd348f0c217b034e17e740f0f87ba6c09" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4ihe222ukxN/InQHW33cNTWcPmAACW2DduVEnCejvOg=</DigestValue></Reference></SignedInfo><SignatureValue>Ez0gy5MDuKojuZC8Wl7p4mSAP0KzUSfNF90z4Sp0yu3QEjX4CwPiJ6lk9VsEj13TxR1+UYUM3LTuzLwJoTsif7bVejfd0uyFpUeauaYhbL4lnAyToNs8oaF7RnvB8gzUgRHd0UBOX0kllWhtddjs/IPCJ5Lp+fvNk10aoaJDqh4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wGN+pYm7tPbpIwBOThZSTzdrZ0LvSeflS3R7QggnKzwXO30CcOSNdm42zN9w7r1dyu+qWUxRJog97XGD8HSk+o+3h1kPs6EbEHNEYrw+NjuYOPykQ8WuzS2lhYUfLut+ZhwPrzk8ibdWUdIPNZIs43kvLIxNvc6ODC1+CDUNJBE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e8bca3279c44e576836d0900603e9c3535dc7d5b0774227f1393ae6ddb5e28e2" Description="" Url=""><as:assemblyIdentity name="Koluno_Azul_VB.exe" version="1.0.0.12" publicKeyToken="d8750abd0039eab8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DAVIDSLAPTOP\david</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>w3U6ShYeZlknQrprb3FVhuKTmrHH3rjJYKg+ECZCqD8=</DigestValue></Reference></SignedInfo><SignatureValue>myFzeDmFFidKNwLqyiGCe1FYiYkwzbFVGda5l8lRfEIkr8REgk80+JjmHzRVmrGjYHes2uPAh3h8LvRVAz8MTfW1iSjFq322cyGmYNFQvrRwYgjgs60JNcZzdvDUCocpMovZ00BEVgcH8NLsTPXOu7pPZfLa5qvzu95owWCXwfE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wGN+pYm7tPbpIwBOThZSTzdrZ0LvSeflS3R7QggnKzwXO30CcOSNdm42zN9w7r1dyu+qWUxRJog97XGD8HSk+o+3h1kPs6EbEHNEYrw+NjuYOPykQ8WuzS2lhYUfLut+ZhwPrzk8ibdWUdIPNZIs43kvLIxNvc6ODC1+CDUNJBE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQKgPnu39AC5lDPPabNUIqSjANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQARABBAFYASQBEAFMATABBAFAAVABPAFAAXABkAGEAdgBpAGQwHhcNMTcxMTE2MDMyNjAwWhcNMTgxMTE2MDkyNjAwWjAvMS0wKwYDVQQDHiQARABBAFYASQBEAFMATABBAFAAVABPAFAAXABkAGEAdgBpAGQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMBjfqWJu7T26SMATk4WUk83a2dC70nn5Ut0e0IIJys8Fzt9AnDkjXZuNszfcO69XcrvqllMUSaIPe1xg/B0pPqPt4dZD7OhGxBzRGK8PjY7mDj8pEPFrs0tpYWFHy7rfmYcD685PIm3VlHSDzWSLON5LyyMTb3Ojgwtfgg1DSQRAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAX/AP0VCfqp2pDtW7WSW0ZHWdGBdNcmHYLQfLlEPXV9QiMJ/+J1m4j37kgRIBgQnU3cgncSANg9nQzBCgUiNyJ4z1nJ6n6rX1DMtZwLPYKZbex6tRWD868ZsHMsDSoujCw/v4txQSSN209QF1IlOgoxax7bQ+DGm/SGQONu6L0lw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
